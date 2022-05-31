@@ -63,8 +63,9 @@
           // No need to change anything ABOVE this line ^
 
           return(
+          <>
             <h1>Draw a Card</h1>
-            <button onClick={}>
+            <button onClick={shuffle}>
               Click to Draw a Card
             </button>
             <button onClick={shuffle}>
@@ -82,7 +83,7 @@
           )
         }
       }
-
+</>
       // No need to change anything below this line
       const domContainer = document.querySelector('#react-container')
       ReactDOM.render(<App />, domContainer)
